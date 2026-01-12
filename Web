@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warriors Wrestling | Home</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; line-height: 1.6; color: #333; }
+        header { background: #b22222; color: white; padding: 1rem; text-align: center; }
+        nav { background: #444; color: white; display: flex; justify-content: center; padding: 0.5rem; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        
+        .hero { 
+            background: #222; height: 300px; color: white; 
+            display: flex; flex-direction: column; align-items: center; 
+            justify-content: center; text-align: center;
+        }
+
+        .container { width: 80%; margin: auto; overflow: hidden; padding: 20px; }
+        
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table th, table td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        table th { background-color: #b22222; color: white; }
+        
+        .footer { background: #333; color: white; text-align: center; padding: 1rem; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Woodstock Girls Wrestling</h1>
+    </header>
+
+    <nav>
+        <a href="#schedule">Schedule</a>
+        <a href="#roster">Roster</a>
+        <a href="#coaches">Coaches</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Dedication. Discipline. Strength.</h2>
+        <p>Winter Season 2026 starts November 15th!</p>
+    </section>
+
+    <div class="container">
+        <h2 id="schedule">Upcoming Meets</h2>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Opponent</th>
+                <th>Location</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Jan 20</td>
+                <td>Central High</td>
+                <td>Home (Main Gym)</td>
+                <td>6:00 PM</td>
+            </tr>
+            <tr>
+                <td>Jan 27</td>
+                <td>Northside Invite</td>
+                <td>Away</td>
+                <td>9:00 AM</td>
+            </tr>
+        </table>
+
+        <h2 id="roster">The Roster</h2>
+        <ul>
+            <li><strong>100 lbs:</strong> Eva Herrmanson (Sr.)</li>
+            <li><strong>105 lbs:</strong> Lou Lou (Fr.)</li>
+            <li><strong>110 lbs:</strong> Aubree Hanson (Sr.)</li>
+        </ul>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 City High Athletics | Follow us on Instagram @CityHighWrestling</p>
+    </footer>
+
+</body>
+</html>
